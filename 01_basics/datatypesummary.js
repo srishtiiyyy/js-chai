@@ -43,3 +43,25 @@ on the value it holds at that moment. Examples include JavaScript, Python, and R
  //NON PRIMITIVE---> TYPEOF FUNCTION
  //NULL-OBJECT
  //ARRAYS-OBKJECT OBJECT-OBJECT
+
+ //******************************************************* *//
+
+ //MEMORY-->STACK HEAP
+ //STACK(PRIMITIVE),HEAP(NON PRIMITIVE)
+
+ let  myname="kitti"
+ let anothername=myname
+ anothername="srishti"
+ console.log(myname)
+ console.log(anothername)
+
+ let userOne={
+    email:"user@google.com",
+    upi:"xyz@g"
+ }
+let usertwo=userOne
+usertwo.email="ss@g"
+console.log(userOne.email)
+console.log(usertwo.email)
+//STACK KE ANDR MTLB PRIMITIVE DATA TYPE ME CHANGES KRTE HAIN AGR T0 BS COPY ME CHANGE HOTA HAI
+//HEAP ME ORIGINAL VALUE ME CHANGE HOTA H INCASE OF NON PRIMITIVE DATA TYPE
