@@ -11,6 +11,9 @@ accountcity="Jaipur"
 accountemail="vb@gmail"
 accountpass="2121"
 accountcity="mumbai"
+ let accountstate
+/*
+PREFER NOT TO USE VAR BECAUSE OF BLOCK AND FUNCTIONAL SCOPE
 
-
-console.log([accountId,accountemail,accountpass,accountcity])
+*/
+console.log([accountId,accountemail,accountpass,accountcity,accountstate])
